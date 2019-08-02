@@ -4,16 +4,11 @@
   padding: 10px;
   text-align: center;
   background-color: white;}
-
-#navigation-container {
-  text-align: center;
-  display:inline-block;
+nav {text-align: center;
   vertical-align:top;
   font-family: 'Montserrat', sans-serif;
   overflow: hidden;
-  list-style-type:none;
-  }
-
+  list-style-type:none;}
 .dropbtn {
   display:block;
   color: black;
@@ -125,12 +120,11 @@ body {
 
 
 h1 {
-  color: #1D7E2F;
-   font-family:'Playfair Display', serif;
-    font-size: 45px;
+  font-size: 45px;
 }
-h2 {
-    font-family: 'Montserrat', sans-serif;
+h1,h2,h3,h4,h5,h6 {
+    color: #1D7E2F;
+  font-family:'Playfair Display', serif;
 }
 p {
   color: black;
@@ -158,4 +152,30 @@ p {
   .column {
     width: 100%;
   }
+}
+
+.phone {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(#98ba40, #a6c250 35%, #618926);
+  background: (linear,left top,left bottom,(0, #98ba40),(.35, #a6c250),(1, #618926));
+    display: inline-block;
+    height: auto; width: auto; 
+    padding: 10px 25px 10px 25px;
+    font-weight:bold; 
+    line-height: 30px;
+    border-radius: 100px; 
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+}
+.phone a{
+    color:white;
+}
+.phone:hover {
+  background: linear-gradient(#245192, #1e3b73 75%, #12295d);
+  background:(linear,left top,left bottom,(0, #245192),(.75, #1e3b73),(1, #12295d));
+}
+a:hover, a:visited, a:link, a:active{ 
+    text-decoration: none;
 }

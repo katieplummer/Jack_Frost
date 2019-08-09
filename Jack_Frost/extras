@@ -1,0 +1,61 @@
+ <!–– Navigation ––> 
+<nav>
+    <a href="index.html"><img class="logo" src="img/JF_logo_2.jpg" alt="HomePage" style= "width: 25%;"></a>
+  <ul>
+  <li class="dropdown">
+     <a href="services.html" class="dropbtn">Landscaping</a>
+    <div class="dropdown-content">
+      <a href="#">Consultations</a>
+        <a href="#">Services</a></div></li>
+  <li class="dropdown">
+    <a href="garden_center.html" class="dropbtn">Garden Center</a>
+    <div class="dropdown-content">
+     <a href="#">Bulk Materials</a>
+      <a href="#">Plants</a>
+        <a href="#">Outdoor Furniture</a></div></li>
+  <li class="dropdown">
+    <a href="about.html" class="dropbtn">About Us</a>
+    <div class="dropdown-content">
+        <a href="careers.html">Our Story</a></div></li>
+  <li class="dropdown">
+    <a href="contact.html" class="dropbtn">Contact Us</a>
+        </li></ul></nav>
+        
+        
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>    
+<link rel = "JF_Java" type = "javascript" href = 
+      "js/JF_Java"><script src="js/JF_Java"></script>
+     
+     
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      
+      
+    
+ 
+ 
+ <div class="phone"><a href="tel:1-757-368-4477" >Call 757-368-4477 </a></div> 
+ .phone {
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(#98ba40, #a6c250 35%, #618926);
+  background: (linear,left top,left bottom,(0, #98ba40),(.35, #a6c250),(1, #618926));
+    display: inline-block;
+    height: auto; width: auto; 
+    padding: 10px 25px 10px 25px;
+    font-weight:bold; 
+    line-height: 30px;
+    border-radius: 100px; 
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+}
+.phone a{
+    color:white;
+}
+.phone:hover {
+  background: linear-gradient(#245192, #1e3b73 75%, #12295d);
+  background:(linear,left top,left bottom,(0, #245192),(.75, #1e3b73),(1, #12295d));
+}
+a:hover, a:visited, a:link, a:active{ 
+    text-decoration: none;
+}
